@@ -47,8 +47,6 @@ body {
 }
 
 .nav-item {
-  /* display: inline-block;
-  height: 60px; */
   margin-right: 20px;
   list-style: none;
   position: relative;
@@ -65,14 +63,21 @@ body {
 }
 
 .nav_tag {
+  /* position: absolute; */
   text-decoration: none;
-  padding-bottom: 10px;
-  padding-top: 10px;
+  padding-bottom: 19px;
+  padding-top: 19px;
   font-size: 12px;
+  height: 15px;
+  top: 22.5px;
 
 }
 
 .nav_tag:hover {
+  color: #00acdc;
+}
+
+.is-active {
   color: #00acdc;
 }
 
