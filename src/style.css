@@ -10,13 +10,13 @@
   display: none;
 }
 
-body {
-  margin: 0;
-}
-
-.logo {
+.home-image-link {
   height: 40px;
   width: 40px;
+}
+
+body {
+  margin: 0;
 }
 
 .header {
@@ -28,6 +28,8 @@ body {
 }
 
 .nav__list {
+  margin: 0;
+  padding: 0;
   display: flex;
   list-style: none;
   flex-wrap: wrap;
@@ -48,6 +50,8 @@ body {
 }
 
 .nav_tag {
+  display: inline-block;
+  margin: 0;
   text-decoration: none;
   font-size: 12px;
   padding: 22.5px 0;
@@ -62,15 +66,16 @@ body {
 }
 
 .is-active:after {
-  margin: 0;
+  /* margin: 0; */
   position: absolute;
   content: "";
   height: 4px;
-  bottom: -22.5px;
+  bottom: -1px;
   background: #00acdc;
   left: 0;
   right: 0;
   width: 100%;
+  border-radius: 8px;
 }
 
 @media (max-width: 1024px) {
